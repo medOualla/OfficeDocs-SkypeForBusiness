@@ -30,7 +30,7 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 
 | Parameter name | Example of the value | 
 | :---------------------  |:---------------------- |
-| Request-URI | OPTIONS sip:sip.pstnhub.microsoft.com:5061 SIP /2.0 |
+| Request-URI | sip:sip.pstnhub.microsoft.com:5061 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
 | From Header | From Header From: <sip:sbc1.adatum.biz:5058> |
